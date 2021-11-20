@@ -1,20 +1,27 @@
 {
-  "name": "jobs",
+  "name": "task-manager",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfazans23/Task-Manager.git"
+  },
+  "author": "Muhammad Faza N S",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfazans23/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/mfazans23/Task-Manager#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.11.10"
+    "mongoose": "^6.0.13"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.15"
   }
 }
